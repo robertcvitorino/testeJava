@@ -1,6 +1,6 @@
-package com.example.projeto.Entity;
+package com.example.projeto.Membro.Entity;
 
-import com.example.projeto.DTO.MembroDTO;
+import com.example.projeto.Membro.DTO.MembroDTO;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;

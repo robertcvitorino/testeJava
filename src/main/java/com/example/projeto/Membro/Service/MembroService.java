@@ -1,8 +1,8 @@
-package com.example.projeto.Service;
+package com.example.projeto.Membro.Service;
 
 
-import com.example.projeto.Entity.Membro;
-import com.example.projeto.Repository.MembroRepository;
+import com.example.projeto.Membro.Entity.Membro;
+import com.example.projeto.Membro.Repository.MembroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,13 +23,13 @@ public class MembroService {
         return this.membroRepository.findAll();
     }
 
-    public void cadastrarMembro(Membro membro)
+    public Membro cadastrarMembro(Membro membro)
     {
-        this.membroRepository.save(membro);
+        return  this.membroRepository.save(membro);
     }
-    public void atualizarMembro(Membro membro)
+    public Membro atualizarMembro(Membro membro)
     {
-        this.membroRepository.save(membro);
+       return this.membroRepository.save(membro);
     }
     public void deletarMembro(Long id)
     {

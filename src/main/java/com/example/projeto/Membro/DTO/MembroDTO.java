@@ -1,5 +1,5 @@
-package com.example.projeto.DTO;
-import com.example.projeto.Entity.Membro;
+package com.example.projeto.Membro.DTO;
+import com.example.projeto.Membro.Entity.Membro;
 import jakarta.validation.constraints.*;
 
 import java.util.Optional;
